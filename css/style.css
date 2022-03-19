@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.page-container{
+    width: 80%;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    color: gray;
+}
+.logo{
+    max-height: 80px;
+    margin-bottom: 25px;
+}
+
+.hero{
+    background:rgba(0, 0, 0, 0.3) url("../img/banner.jpg");
+    background-blend-mode: darken;
+    background-image: url("../img/banner.jpg");
+    min-height:500px;
+    width: 100%;
+    background-position: center;
+    border-radius: 15px;
+    margin-bottom: 4    0px;
+}
+.title{
+    max-width: 500px;
+    padding-top: 300px;
+    padding-left: 50px;
+    color: white;
+}
+.text{
+    margin-left:50px ;
+    color: white;
+    max-width:450px;
+}
+.sub-title{
+    font-size: 30px;
+}
+.under-leadership{
+    font-size: 20px;
+    color: gray;
+}
+
+.table-left , .table-right{
+    width: 20%;
+}
+.lorem{
+    color: gray;
+}
+
+.table-center{
+width: calc(60% - 30px);
+margin: 0  15px;
+}
+.table-right , .table-left , .table-center{
+    float: left;
+
+}
+.column-img-right ,.column-img-left{
+    filter: brightness(50%);
+    border-radius: 10px;
+    min-height: 300px;
+    width: 100%;
+}
+.column-img-center{
+    filter: brightness(50%);
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px ;
+}
+.footer{
+    height: 100px;
+}
+.end{
+    margin-top: 20px;
+    text-align: center;
+}
+.heart{
+    color: red;
+}
